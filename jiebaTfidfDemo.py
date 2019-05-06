@@ -28,10 +28,10 @@ transformer = TfidfTransformer()
 tfidf = transformer.fit_transform(freq_matrix)
 
 #get keyword
-words = vactorizer.get_feature_name()
+words = vactorizer.get_feature_names()
 
 #tfidf matrix
-weight = tfidf.toarrary()
+weight = tfidf.toarray()
 
 print(tfidf.shape)
 
