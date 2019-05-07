@@ -10,7 +10,7 @@ import time
 #import unittest
 from bs4 import BeautifulSoup
 
-driver = webdriver.Chrome("C:/webdriver/chromedriver")
+driver = webdriver.Chrome("webdriver/chromedriver")
 driver.get("http://google.com")
 element = driver.find_element_by_name("q")
 element.send_keys("寒流")
