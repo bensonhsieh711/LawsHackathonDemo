@@ -2,7 +2,7 @@
 """
 Created on Fri May  3 10:58:09 2019
 
-@author: 07529.Benson.Hsieh
+@author: BensonHsieh
 """
 
 import jieba
