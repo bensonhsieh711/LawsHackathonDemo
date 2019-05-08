@@ -32,7 +32,7 @@ def get_keywords(file_path, topN):
             keywords[tag] = weight
     return keywords
 
-#_keywords = get_keywords("lyrics/告白氣球.txt", 10)
-_keywords = get_keywords("lyrics/別讓我走遠.txt", 10)        
+_keywords = get_keywords("lyrics/告白氣球.txt", 10)
+#_keywords = get_keywords("lyrics/別讓我走遠.txt", 10)        
 print(_keywords)
-generate_wordcloud(_keywords, _stopwords, "lytics/WordCloudDemo.jpg")
+generate_wordcloud(_keywords, _stopwords, "lyrics/WordCloudDemo.jpg")
