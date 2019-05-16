@@ -49,3 +49,5 @@ pip-delete-this-directory.txt
 *.pot
 .webassets-cache
 lyrics/WordCloudDemo.jpg
+opencc-1.0.1-win64/wiki_texts.txt
+opencc-1.0.1-win64/wiki_zh_tw.txt
